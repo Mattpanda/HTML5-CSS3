@@ -1,0 +1,100 @@
+HTML5-CSS3
+==========
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>By Matthew Bernal</title>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class= "pull-left">
+          <li><a href="https://www.facebook.com/matthew.bernal.5">My Facebook</a></li>
+        </ul>
+        <ul class= "pull-right">
+          <li><a href="https://www.goodreads.com/user/show/8665190-matthew">My GoodReads</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Greetings and Salutations</h1>
+        <p>A Song Of Fire and Ice</p>
+        <a href="http://getbootstrap.com/">Made with Bootstrap</a>
+      </div>
+    </div> 
+
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>"My Favorite Houses of Game of Thrones"</h2>
+            <p>"I'm a big game of thrones fan!"</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://s27.postimg.org/ndg3z0a37/baratheon.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://s24.postimg.org/ug3jghulx/lannister.jpg">
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://s30.postimg.org/ad1lu0gyp/Stark.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://s15.postimg.org/xnnuspjh7/targaryen.jpg">
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://s28.postimg.org/4vi6xx5pp/martell.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class= "row">
+	      <div class= "col-md-4">
+			<h3>Travel</h3>
+			<p>The Seven Kingdoms is a realm located on the continent of Westeros, ruled by the king who sits on the Iron Throne in the capital city, King's Landing. The name dates before the time of when Aegon the Conqueror set to unite the lands of Westeros, when there were seven independent kingdoms. Today there are nine distinct regions.</p>
+			<p><a href="http://www.amazon.com/George-Martins-Thrones-5-Book-Boxed/dp/0345535529/ref=sr_1_1?s=books&ie=UTF8&qid=1406063920&sr=1-1&keywords=a+song+of+ice+and+fire">See how to travel to westeros</a></p>
+	      </div>
+		  <div class= "col-md-4">
+			<h3>Hosts</h3>
+			<p>The guest right is a sacred law of hospitality. When a guest, be he common born or noble, eats the food and drinks the drink off a host's table beneath the host's roof, the guest right is invoked. WARNING Skip House Frey</p>
+			<p><a href="http://awoiaf.westeros.org/index.php/Guest_right">Learn more about hosting</a></p>
+		  </div>
+		  <div class= "col-md-4">
+			<h3>The Known World</h3>
+			<p>A world composed of at least three continents (Westeros, Essos, and Sothoryos), a large landmass (Ulthos), and a number of many smaller islands. None of the four major landmasses have been completely mapped. The Known World is a round planet, although it might be a little larger than Earth.</p>
+			<p><a href="http://www.hbo.com/game-of-thrones#/">Game of Thrones on HBO</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+  </body>
+</html>
